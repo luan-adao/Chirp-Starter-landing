@@ -174,7 +174,7 @@ h2.section-title {
 
 .welcome-figure > img {
     width: 450px;
-    height: 100%
+    height: auto;
 }
 
 .welcome-avatar {
