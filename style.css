@@ -164,6 +164,11 @@ h2.section-title {
     align-items: center;
 }
 
+.welcome-links > a.default-link {
+    height: 1em;
+    align-self: center;
+}
+
 .welcome-figure {
     margin-top: 2em;
 }

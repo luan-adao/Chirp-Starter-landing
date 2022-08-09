@@ -1,5 +1,9 @@
 @media screen and (max-width: 600px) and (orientation: portrait){
     
+    body, html {
+        max-width: 100vw;
+    }
+
     h1.section-title {
         font-size: 2rem;
     }
@@ -91,5 +95,9 @@
     .site-footer {
         flex-direction: column;
         padding: 1em 5%;
+    }
+
+    .site-footer >:first-child {
+        margin-bottom: 0.5em;
     }
 }
