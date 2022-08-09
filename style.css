@@ -159,14 +159,9 @@ h2.section-title {
     padding-right: 5em;
 }
 
-.welcome-diviver > section > .welcome-links {
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.welcome-links > a.default-link {
-    height: 1em;
+.welcome-divider .welcome-links a.default-link{
     align-self: center;
+    margin-left: 1em;
 }
 
 .welcome-figure {
