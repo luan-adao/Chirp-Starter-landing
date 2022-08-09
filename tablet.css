@@ -1,0 +1,31 @@
+@media screen and (max-width: 810px) and (min-width: 600px) and (orientation: portrait) {
+    .welcome-divider {
+        flex-direction: column-reverse;
+    }
+    
+    .welcome-figure {
+        width: 100%;
+    }
+
+    .welcome-figure > img {
+        content: url("Assets/Hero\ Image\ \(Tablet\ View\).png");
+        width: 100%;
+    }
+    .features-grid-layout {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas:
+            "analytics"
+            "smart"
+            "scheduled"
+            "darker";
+    }
+
+    .costumers-section section {
+        width: 40%;
+    }
+
+    .costumers-section > main {
+        flex-wrap: wrap;
+    }
+}
