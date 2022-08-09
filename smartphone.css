@@ -1,0 +1,95 @@
+@media screen and (max-width: 600px) and (orientation: portrait){
+    
+    h1.section-title {
+        font-size: 2rem;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .title-container {
+        width: 100%;
+    }
+
+    .title-container > .mobile-menu {
+        display: block;
+    }
+
+    .welcome-divider {
+        flex-direction: column-reverse;
+    }
+
+    .welcome-divider > section {
+        padding-top: 1em;
+        padding-right: 0;
+    }
+
+   .welcome-links {
+        flex-direction: column;
+    }
+
+    .welcome-links > a.default-link {
+        align-self: center;
+        margin-top: 1em;
+    }
+
+    .welcome-figure {
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .welcome-figure >img {
+        width: 100%;
+    }
+    
+    .default-section {
+        padding: 3% 5%;
+    }
+
+    .features-grid-layout {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas:
+            "analytics"
+            "smart"
+            "scheduled"
+            "darker";
+    }
+
+    .features-section section {
+        height: auto;
+    }
+
+    .costumers-section section {
+        width: 90%;
+        padding: 1em;
+    }
+
+    .costumers-section section:first-child {
+        margin-bottom: 1.5em;
+    }
+
+    .costumers-section section:last-child {
+        margin-top: 1.5em;
+    }
+
+    .costumers-section > main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .price-section .price-title-area > h2 {
+        text-align: center;
+    }
+
+    .price-card {
+        width: 90%;
+        padding: 2em 1em;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        padding: 1em 5%;
+    }
+}
