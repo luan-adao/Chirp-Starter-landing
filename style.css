@@ -192,7 +192,7 @@ h2.section-title {
 }
 
 .features-section section {
-    height: 12rem;
+    height: auto;
     flex-direction: column;
     padding: 1.4em;
 }
