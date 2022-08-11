@@ -322,8 +322,12 @@ h2.section-title {
 
 .site-footer {
     background-color: #D7F5F5;
-    padding: 1em 10%;
+    padding: 1.5em 10%;
     justify-content: space-between;
+}
+
+.site-footer p {
+	margin: 0;
 }
 
 .site-footer div {

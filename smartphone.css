@@ -96,8 +96,12 @@
         flex-direction: column;
         padding: 1em 5%;
     }
-
+	/*
     .site-footer >:first-child {
         margin-bottom: 0.5em;
     }
+	*/
+	.site-footer > .developer-info {
+		margin-bottom: 0.5em;
+	}
 }
