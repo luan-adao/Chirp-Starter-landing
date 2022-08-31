@@ -285,6 +285,9 @@ h2.section-title {
     justify-content: flex-start;
 }
 
+.price-card li>img {
+}
+
 .value-field p {
     line-height: default;
     margin: 0;
