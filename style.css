@@ -76,8 +76,14 @@ h2.section-title {
 }
 
 .default-section {
-    padding: 3% 10%;
     height: auto;
+    padding: 3%;
+}
+
+.default-section > div, .site-footer > div {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1366px;
 }
 
 .default-margin {
@@ -254,9 +260,12 @@ h2.section-title {
 }
 
 .price-section {
+    margin-bottom: 2em;
+}
+
+.price-section > div {
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2em;
 }
 
 .price-section .price-title-area {
@@ -322,15 +331,19 @@ h2.section-title {
 
 .site-footer {
     background-color: #D7F5F5;
-    padding: 1.5em 10%;
+    padding: 1.5em 0;
+}
+
+.site-footer > div {
     justify-content: space-between;
+
 }
 
 .site-footer p {
 	margin: 0;
 }
 
-.site-footer div {
+.site-footer > div > div {
     align-items: center;
 }
 
